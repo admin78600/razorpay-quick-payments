@@ -19,8 +19,13 @@ namespace Razorpay\
 
 class Client
 {
-    // Handles request and response
-    // Uses Composer:Requests internally
+ razorpay.createPayment({  amount: 500,                              
+ email: 'mohdarifnimt@gmail.com',  
+ contact: '9945578637',  
+ order_id: 'order_8426',  
+ method: ‘cardless_emi’,  
+ provider: ‘<provider-name>’ // EMI provider});
+ 
 }
 
 class Payment
